@@ -1,0 +1,9 @@
+name: app-conda
+channels:
+  - defaults
+dependencies:
+  - python=3.7.*
+  - pyodbc=4.0.*
+  - requests=2.22.*
+  - pylint=2.3.*
+  - pytest=5.1.*
