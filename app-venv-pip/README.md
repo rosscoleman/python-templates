@@ -14,4 +14,6 @@ python -m venv .venv
 .venv/Scripts/activate.bat
 pip install -r requirements-app.txt
 pip install -r requirements-dev.txt
+pip freeze -r requirements-app.txt > requirements.txt
+python -m example_pkg.main
 ```
