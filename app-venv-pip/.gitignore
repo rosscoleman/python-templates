@@ -1,3 +1,5 @@
+#Pycharm = .idea
+.idea
 .vscode
 .venv
 **/__pycache__
