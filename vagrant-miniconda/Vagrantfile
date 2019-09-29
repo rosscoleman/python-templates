@@ -1,8 +1,5 @@
-# https://stackoverflow.com/a/53363591
 Vagrant.configure(2) do |config|
   config.vm.box = "ubuntu/xenial64"
-  # Optional - enlarge disk (will also convert the format from VMDK to VDI):
-  #config.disksize.size = "50GB"
-
+  config.vm.provision "file", source: "Miniconda3-latest-Linux-x86_64.sh", destination: "/home/vagrant/miniconda.sh"
   config.vm.provision "shell", path: "install-miniconda.sh"
 end
