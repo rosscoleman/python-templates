@@ -1,7 +1,7 @@
 requests==2.22.0
 pyodbc==4.0.27
 ## The following requirements were added by pip freeze:
-certifi==2019.9.11
+certifi==2022.12.7
 chardet==3.0.4
 entrypoints==0.3
 flake8==3.7.0
